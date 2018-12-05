@@ -1,0 +1,15 @@
+{
+  "name": "test2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha **/**/*.test.js",
+    "test:watch": "nodemon --exec \"yarn run test\""
+  },
+  "devDependencies": {
+    "expect": "^23.6.0",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.18.7"
+  }
+}
